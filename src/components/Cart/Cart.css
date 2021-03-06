@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.App {
+  max-width: 80%;
+  margin: auto;
+  padding: 1rem;
+  font-family: "Open Sans", sans-serif;
+}
+.product__items,
+.cart__items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.5rem auto;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+.product__items {
+  background-color: #ecfdf5;
+}
+.cart__items {
+  background-color: #fef3c7;
+}
+.product__name {
+  font-size: 16px;
+  font-weight: 600;
+}
+.product__quantity {
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #ffffff;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 28px;
+  border-radius: 5px;
+}
+.btn {
+  width: 30px;
+  height: 30px;
+  margin: auto 0.5rem;
+  cursor: pointer;
+  font-family: inherit;
+  line-height: 18px;
+  font-size: 24px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  background-color: #000000;
+}
